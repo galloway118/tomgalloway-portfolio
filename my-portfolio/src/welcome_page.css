@@ -1,0 +1,11 @@
+
+.welcome_page {
+  display: grid;
+  height: 500px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+
+

@@ -1,0 +1,23 @@
+.navbar {
+    grid-area: 1 / 1 / span 1 / span 3;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    border: 10px rgb(240, 244, 247);
+    text-align: left;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    background-color: #0c1529;
+    color: rgb(240, 244, 247);
+    align-items: left;
+    justify-content: left;  
+}
+
+img {
+    border-radius: 50%
+}
+
+.navbar_links {
+    display: inline;
+
+}
