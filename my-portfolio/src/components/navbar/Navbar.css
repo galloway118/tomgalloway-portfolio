@@ -1,5 +1,5 @@
 .navbar {
-    grid-area: 1 / 1 / span 1 / span 4;
+    grid-area: 1 / 1 / span 1 / span 3;
     position: fixed;
     width: 100%;
     border: 2px rgb(240, 244, 247) solid;
@@ -13,13 +13,13 @@
 
 .navbar_links {
     display: flex;
-    padding: 0 5px;
+    padding: 0 10px;
     text-align: center;
     align-items: center;
     justify-content: center; 
 }
 
-img {  
+.tomglogo {  
     max-width: 5%;
     max-height: 5%;
     color: rgb(240, 244, 247);
@@ -46,7 +46,7 @@ padding: 0;
 }
 
 .navbar_items li {
-    padding: 0 5px;
+    padding: 0 20px;
     display: inline;   
 }
 

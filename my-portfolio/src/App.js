@@ -5,6 +5,7 @@ import Banner from './components/navbar/header/header'
 import Navbar from './components/navbar/Navbar'
 import Sidebar from './components/navbar/sidebar'
 import Backdrop from './components/navbar/backdrop/backdrop'
+import TomGinfo from './components/navbar/Tom G profile/Tom'
 
 class App extends React.Component {
   state = { 
@@ -21,6 +22,7 @@ class App extends React.Component {
         <Navbar navBarClickHandler={this.sideBarHandler}/>
         {sideBar}
         <Banner user={this.state.user} />
+        <TomGinfo/> 
       </div>
     )
   } 
