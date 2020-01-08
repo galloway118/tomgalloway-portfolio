@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebutton from './Navbar_button';
 import './Navbar.css';
+import {Link} from 'react-router-dom';
 
 
 const Navbar = props => { 
@@ -14,10 +15,10 @@ const Navbar = props => {
                 <div className="spacer"></div>
                 <div className="navbar_items">
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About-me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact</a></li>
+                    <li><Link to="/App">Home</Link></li>
+                    <li><Link to="/about_me">About</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </nav>

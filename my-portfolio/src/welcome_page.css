@@ -1,5 +1,5 @@
 
-.welcome_page {
+.welcome_page, .project_page, .About_page, .Contact_page{
   display: grid;
   height: 100%;
   width: 100%;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './sidebar.css';
+import {Link} from 'react-router-dom';
 
 
 class SideBar extends Component {
@@ -7,10 +8,10 @@ class SideBar extends Component {
     return (
     <nav className="sidebar">
         <ul>
-        <li><a>Home</a></li>
-        <li><a>About-me</a></li>
-        <li><a>Projects</a></li>
-        <li><a>Contact</a></li>
+        <li><Link to="/App">Home</Link></li>
+            <li><Link to="/about_me">About</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
     </nav>
     );

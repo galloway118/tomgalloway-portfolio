@@ -1,7 +1,7 @@
-.tominfo {
+.tominfo, .enquiry {
     margin-top: -1.5%;
     padding: 20px;
-    grid-area: 2 / 1 / span 8 / span 3;
+    grid-area: 2 / 1 / span 6 / span 3;
     border: 5px rgb(240, 244, 247) double;        text-align: center;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-weight: 600;
